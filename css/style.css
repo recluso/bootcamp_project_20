@@ -1,5 +1,103 @@
+/** @format */
+
 body {
-  background-color: bisque;
+  background-color: rgb(39, 39, 39);
   margin: 0;
   padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-title {
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #211e1f;
+  margin: 0 4px;
+}
+
+.row {
+  gap: 0;
+}
+
+.card {
+  margin: 0 4px 8px 4px;
+  padding: 0;
+  border-radius: 0;
+  width: 300px;
+  break-inside: avoid;
+}
+
+.card-body {
+  background-color: #e4dde7;
+}
+
+.location-img {
+  display: block;
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.loading-card {
+  background-color: goldenrod;
+}
+
+.accordion-body {
+  background-color: #efebf1;
+  color: #211e1f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.accordion-body p small {
+  font-size: x-small;
+}
+
+.unsplash-attribution {
+  font-size: 2px;
+}
+
+p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 85%;
+  line-height: 1.7em;
+}
+
+.bg-warning {
+  background-color: #ebe5d8 !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: brown;
+  background-color: #ebe5d8 !important;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.accordion-button {
+  background-color: #efebf1;
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #211e1f;
+}
+
+.card-footer {
+  background-color: #e4dde7;
+  height: 12px;
+  overflow: hidden;
 }
