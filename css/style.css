@@ -1,7 +1,7 @@
 /** @format */
 
 body {
-  background-color: rgb(47, 58, 1);
+  background-color:ivory;
   margin: 0;
   padding: 0;
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -101,3 +101,23 @@ p {
   height: 12px;
   overflow: hidden;
 }
+
+.nav-link.active {
+  color: crimson; /* This is the default active color in Bootstrap 5 */
+}
+
+.myhead {
+  /* background-color: #ebe5d8; */
+  color: #211e1f;
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.myhead h1 {
+  font-size: 6em;
+  transform: rotate(-5deg);
+}
+
+
+
