@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       query: "Niemeyer Aviles Architecture Spain",
       lat: 43.5574125,
       lon: -5.95922,
-      embed: `<iframe src="https://ridewithgps.com/embeds?type=route&id=50057732&metricUnits=true&hideSurface=true" style="width: 1px; min-width: 100%; height: 240px; border: none;" scrolling="no"></iframe>`,
+      embed: `<iframe width="100%" height="240px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/day-one_1196621?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&editMode=disabled&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=none&captionBar=false&captionMenus=false&fullscreenControl=false&captionControl=false&locateControl=false&measureControl=false&editinosmControl=false"></iframe>`,
       distance: "24.5 km",
     },
     {
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       query: "Villaviciosa Asturias Restaurant Tables asturias",
       lat: 43.4819348,
       lon: -5.4359576,
-      embed: `<iframe src="https://ridewithgps.com/embeds?type=route&id=49694912&metricUnits=true&hideSurface=true" style="width: 1px; min-width: 100%; height: 240px; border: none;" scrolling="no"></iframe>`,
+      embed: `<iframe width="100%" height="240px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/day-two_1196625?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&editMode=disabled&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=none&captionBar=false&captionMenus=false&fullscreenControl=false&captionControl=false&locateControl=false&measureControl=false&editinosmControl=false"></iframe>`,
       distance: "59.7 km",
     },
     {
@@ -33,48 +33,41 @@ document.addEventListener("DOMContentLoaded", () => {
       query: "Llanes Casino Asturias Apain city house summer blue urban spain path villa palm tree housing arch walkway flagstone gothic arch",
       lat: 43.5574125,
       lon: -5.95922,
-      embed: `<iframe src="https://ridewithgps.com/embeds?type=route&id=50057905&metricUnits=true&hideSurface=true" style="width: 1px; min-width: 100%; height: 240px; border: none;" scrolling="no"></iframe>`,
+      embed: `<iframe width="100%" height="240px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/day-three_1196627?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&editMode=disabled&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=none&captionBar=false&captionMenus=false&fullscreenControl=false&captionControl=false&locateControl=false&measureControl=false&editinosmControl=false"></iframe>`,
       distance: "69 km",
     },
     {
       country: "Spain",
       day: 4,
-      city: "Aviles",
-      query: "aviles+avilés+asturias+city+spain",
+      city: "Panes",
+      blurb: "Panes is a small village in the province of Asturias, Spain. It is located in the Picos de Europa National Park, a mountain range that is part of the Cantabrian Mountains. The village is known for its natural beauty and outdoor activities.",
+      query: "Siejo Panes asturias+city+spain",
       lat: 43.5574125,
       lon: -5.95922,
-      embed: ``,
+      embed: `<iframe width="100%" height="240px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/day-4_1197161?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&editMode=disabled&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=none&captionBar=false&captionMenus=false&fullscreenControl=false&captionControl=false&locateControl=false&measureControl=false&editinosmControl=false"></iframe>`,
       distance: " km",
     },
     {
       country: "Spain",
       day: 5,
-      city: "Aviles",
-      query: "aviles+avilés+asturias+city+spain",
-      lat: 43.5574125,
-      lon: -5.95922,
-      embed: ``,
-      distance: " km",
+      city: "San Miguel de Meruelo",
+      blurb: "San Miguel de Meruelo is a small village in the province of Cantabria, Spain. It is located near the coast and is known for its natural beauty and outdoor activities.",
+      query: "San Miguel de Meruelo cantabria city spain",
+      lat: 43.45684,
+      lon: -3.5885774,
+      embed: `<iframe width="100%" height="240px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/day-5_1197165?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&editMode=disabled&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=none&captionBar=false&captionMenus=false&fullscreenControl=false&captionControl=false&locateControl=false&measureControl=false&editinosmControl=false"></iframe>`,
+      distance: "23.1 km",
     },
     {
       country: "Spain",
       day: 6,
-      city: "Aviles",
-      query: "aviles+avilés+asturias+city+spain",
-      lat: 43.5574125,
-      lon: -5.95922,
-      embed: ``,
-      distance: " km",
-    },
-    {
-      country: "Spain",
-      day: 7,
-      city: "Aviles",
-      query: "aviles+avilés+asturias+city+spain",
-      lat: 43.5574125,
-      lon: -5.95922,
-      embed: ``,
-      distance: " km",
+      city: "Bilbao",
+      blurb: "Bilbao is a city in northern Spain, the largest city in the province of Biscay and in the Basque Country as a whole. It is also the largest city proper in northern Spain. Bilbao is the tenth largest city in Spain, with a population of 345,141 as of 2015. The Bilbao metropolitan area has 1,037,847 inhabitants, making it one of the most populous metropolitan areas in northern Spain; with a population of 875,552 the comarca of Greater Bilbao is the fifth-largest urban area in Spain. Bilbao is also the main urban area in what is defined as the Greater Basque region.",
+      query: "Bilbao Basque Country Pais Vasco Euskadi Bilbo city spain",
+      lat: 43.2934209,
+      lon: -2.9760184,
+      embed: `<iframe width="100%" height="240px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/day-7_1197170?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&editMode=disabled&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=none&captionBar=false&captionMenus=false&fullscreenControl=false&captionControl=false&locateControl=false&measureControl=false&editinosmControl=false"></iframe>`,
+      distance: "87.8 km",
     },
   ];
 
@@ -203,8 +196,9 @@ document.addEventListener("DOMContentLoaded", () => {
     cardHeader.appendChild(cardTitle);
     
     // cardBody.appendChild(cardText);
-    cardBody.appendChild(img);
     cardBody.appendChild(routeEmbed);
+    cardBody.appendChild(img);
+   
 
     // Create accordion div
     const accordionDiv = document.createElement("div");
